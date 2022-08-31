@@ -1,0 +1,17 @@
+
+.todoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.todo-text {
+    display: flex;
+    align-self: center;
+    grid-gap: 5px;
+}
+
+.delete {
+    margin-left: 10px;
+}
