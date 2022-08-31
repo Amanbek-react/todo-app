@@ -12,7 +12,7 @@ const CreateTodo: React.FC<Props> = ({ addNew, stateLength }) => {
 
   const submit = (event: ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (stateLength <= 10) {
+    if (stateLength < 10) {
       addNew(inputValue);
       setInputValue("");
     } else {
